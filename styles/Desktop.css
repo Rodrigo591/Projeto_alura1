@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 1300px){
+    
+    .cabeçalho {
+        padding: 0 2em;
+    }
+
+    .container-texto{
+        display: inline;
+    }  
+
+
+    .Desktop-link{
+        display: flex;
+        align-items: center;
+    }
+
+    .opções{
+        margin-right: auto;
+
+    }
+    
+}
+
+
+@media screen and (min-width: 1728px) {
+
+    .banner-conteudo{
+        font-size: 80px;
+        
+    }
+
+    .banner-paragrafo{
+        font-size: 30px;
+    }
+
+    .procurar{
+        width: 50%;
+        justify-content: center;
+        
+      
+    }
+
+   
+
+   
+
+}

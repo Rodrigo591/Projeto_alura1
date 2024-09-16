@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 1024px) {
+
+
+    .container_botao:checked ~ .opção-rótulo > .opções-item{
+        background: var(--azul-degrade);
+        color: white;
+    }
+
+    
+
+    .menu_hamburguer{
+        display: none;
+    }
+
+    .icone-titulo{
+        display: block;
+        font-weight: 400;
+        font-size: 30px;
+
+    }
+
+   .icone_titulo-negrito {
+        font-weight: 700;
+    }
+
+   .opções{
+        display: flex;
+        
+    }
+
+   .opções-item{
+        padding: 2em 1em;
+        text-transform: uppercase;
+        font-weight: 550;
+    }
+
+   .opções-link{
+        text-decoration: none;
+    }
+
+   .sumir-no-tablet{
+        display: none;
+    }
+
+   .container{
+        margin-right: 4em;
+    }
+
+   .banner{
+        gap: 20px;
+    }
+
+   .banner-conteudo{
+        font-weight: bold;
+        font-size: 36px;
+    }
+   .banner-paragrafo{
+        font-weight: lighter;
+        font-size: 16px;
+    }
+
+    .procurar{
+        margin-top: 1em;
+    }
+
+    .carrosel-titulo{
+        font-size: 26px;
+        font-weight: bold;
+
+    }
+
+    .carrosel{
+        justify-content: center;
+    }
+
+    .swiper-pagination{
+        margin: 1em 0 1em 0em;
+    }
+
+    .swiper{
+        width: 60%;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        display: block;
+        top: 60%;
+    }
+
+    .card{
+        margin: 3em auto;
+        width: 50%;
+    }
+
+    .tópico-titulo {
+        font-size: 24px;
+    }
+
+    .tópico-item{
+        font-size: 24px;
+        
+    }
+    .tópico-lista{
+        margin: auto;
+        width: 700px;
+    }
+
+    .lista-menu{
+        width: 10em;
+        border: 1px solid black;
+    }
+
+
+    .final{
+        display: flex;
+        margin: auto;
+    }
+    .conteudo-final{
+        height: 100px;
+        margin: auto;
+        flex-flow: column wrap;
+        display: flex;
+    }
+
+    .final-texto{
+        font-size: 24px;
+        margin: 0 2em 0 0;
+    }
+
+    /* footer conteudos */
+
+
+
+    footer{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer h2{
+        margin-top: 2em;
+        font-size: 24px;
+    }
+
+    .coluna{
+        display: block;
+    }
+
+    .coluna_item-titulo{
+        margin: 3.4em 0 0 1em;
+        color: #858585;
+        text-transform: uppercase;
+
+    }
+
+    .coluna-item{
+        display: flex;
+        align-items: center;   
+        margin: 1em;    
+        
+    }
+    .coluna_item-imagem{
+        display: flex;
+        justify-content: start;
+        color: #858585;
+        margin-right: 0.6em;
+    }
+
+    /* Itens de outra média para desativar */
+
+    .container-texto{
+        display: none;
+    }
+
+    .card{
+        width: 300px;
+    }
+}
+
